@@ -1,0 +1,71 @@
+{
+    "calib_model": {
+        "calib_unit": "mm",
+        "calib_area": {
+            "0": 573
+        }
+    },
+    "keypints_model": {
+        "detections": [
+            {
+                "class_name": "shirt",
+                "class_id": 0,
+                "keypoints_num": 14,
+                "measurement_pairs": [
+                    {
+                        "keypoints": [
+                            3,
+                            4
+                        ],
+                        "measurement_name": "right_shoulder_width"
+                    },
+                    {
+                        "keypoints": [
+                            4,
+                            {
+                                "keypoint": 5,
+                                "move": "down",
+                                "unit": "mm",
+                                "value": 10
+                            },
+                            6
+                        ],
+                        "measurement_name": "neck"
+                    },
+                    {
+                        "keypoints": [
+                            6,
+                            7,
+                            8
+                        ],
+                        "measurement_name": "right_sleeve_length"
+                    },
+                    {
+                        "keypoints": [
+                            {
+                                "keypoint": 0,
+                                "move": "down",
+                                "unit": "mm",
+                                "value": 10
+                            },
+                            {
+                                "keypoint": 10,
+                                "move": "down",
+                                "unit": "mm",
+                                "value": 10
+                            }
+                        ],
+                        "measurement_name": "chest_width"
+                    },
+                    {
+                        "keypoints": [
+                            11,
+                            13
+                        ],
+                        "measurement_name": "hem"
+                    }
+                ]
+            }
+        ]
+    }
+}
