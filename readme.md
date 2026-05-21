@@ -2,7 +2,7 @@
 
 MECO is an AI-powered measurement tool for the garment industry that automates precise clothing measurements using state-of-the-art computer vision.
 
-## 🗄️ How It Works
+## How It Works
 
 1. **Garment Detection**
    YOLOv11n model (custom-trained for 100 epochs in Google Colab) identifies clothing items and bounding boxes with high accuracy on shirts, pants, dresses, and more.
@@ -13,7 +13,7 @@ MECO is an AI-powered measurement tool for the garment industry that automates p
 3. **Landmark Detection & Measurements**
    Extracts key garment landmarks (shoulders, waist, hem) from segmented masks to compute industry-standard measurements.
 
-## 🚀 Quick start
+## Quick start
 
 ### Environment and Project setup
 
